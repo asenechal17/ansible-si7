@@ -1,0 +1,12 @@
+[client]
+user=root
+password=btsinfo
+
+
+- name: Gestion du my.cnf
+      copy:
+        src: /root/autres/my.cnf.j2
+        dest: /root/.my.cnf 
+        owner: root
+        group: root
+        mode: 0600       
