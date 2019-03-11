@@ -56,10 +56,10 @@
         repo: deb https://packages.sury.org/php/ stretch main
         state: present
         update_cache: yes
-  - name: Installation de php7.2 
-    apt:
-        name: php7.2
-        state: present
+  #- name: Installation de php7.2 
+   # apt:
+    #    name: php7.2
+     #   state: present
 #installation de Mysql sur le serveur de développement
 - name: Installation de Mysql 
   hosts: all
